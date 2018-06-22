@@ -1,6 +1,5 @@
 #header {
-	background: #999;
-	padding-left: 36%;
+	background: #B0C4DE;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 body {
@@ -9,5 +8,57 @@ body {
 #footer {
 	background: black;
 	color: white;
-	margin-top: 29%
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+body {
+	text-align: center;
+}
+h1 {
+	text-align: left;
+}
+h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#addOne {
+	border-radius: 4px;
+	background: #B0C4DE;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 8px
+}
+#eraseOne {
+	border-radius: 4px;
+	background: #B0C4DE;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 8px
+}
+#name {
+	background: #B0C4DE;
+	border: none;
+	padding: 10px 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+li {
+	text-align: center;
+}
+hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+#hr2 {	
+	display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
