@@ -1,0 +1,13 @@
+#header {
+	background: #999;
+	padding-left: 36%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body {
+	background: #F7DDBB;
+}
+#footer {
+	background: black;
+	color: white;
+	margin-top: 29%
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+	    <link rel="shortcut icon" type="image/x-icon" href="shopping-cart-16-77113.png">
+	    <title>Shopping List</title>
+	    <link rel="stylesheet" href="stylesheets/main.css">
+    </head>
+	<body>
+	    <div id="header">
+	        <h1>Online Shopping List</h1>
+	    </div>
+		<div id="content">
+		    <h2>Create your shopping list here!</h2>
+			<hr>
+			<ul>
+			 
+			</ul>
+			<input id="name" type="text" placeholder="Add your item">
+			<button id="addOne">Add One</button>
+			<button id="eraseOne">Erase Last Item</button>
+		</div>
+		<div id="footer">Created by: Leo Felippe</div>
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js">
+		</script>
+		<script>
+
+			$('#eraseOne').click(function() {
+			    var value = $('#name').val();
+				$('li:last()').remove('<li>' - value - '</li>');
+			});
+        
+			$('#addOne').click(function() {
+			    var value = $('#name').val();
+				$('ul').append('<li>' + value + '</li>')
+			}); 
+			
+			$('input:text').focus(
+			    function(){
+				    $(this).val('');
+				});
+				
+			$("#name").keyup(function(event){
+                if(event.keyCode == 13){
+                $("#addOne").click();
+    }
+});		
+			</script>
+	</body>
+
+</html>
