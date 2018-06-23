@@ -1,0 +1,60 @@
+#header {
+	background: #B0C4DE;
+	font-family: Verdana, Geneva, sans-serif;
+}
+body {
+	background: #F7DDBB;
+}
+#footer {
+	background: black;
+	color: white;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size:70px;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+#addOne {
+	border-radius: 4px;
+	background: #B0C4DE;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 8px;
+
+}
+#eraseOne {
+	border-radius: 4px;
+	background: #B0C4DE;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 8px
+}
+#name {
+	background: #B0C4DE;
+	border: none;
+	padding: 8px;
+}
+hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+#hr2 {	
+	display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
