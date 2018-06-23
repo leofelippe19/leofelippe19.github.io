@@ -1,6 +1,6 @@
 #header {
 	background: #B0C4DE;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 }
 body {
 	background: #F7DDBB;
@@ -14,35 +14,31 @@ body {
 	bottom: 0;
 	text-align: center;
 }
-body {
-	text-align: center;
-}
 h1 {
 	text-align: left;
+	font-size:70px
 }
 h2 {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
 }
 #addOne {
 	border-radius: 4px;
 	background: #B0C4DE;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	padding: 8px
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 8px;
+
 }
 #eraseOne {
 	border-radius: 4px;
 	background: #B0C4DE;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	padding: 8px
 }
 #name {
 	background: #B0C4DE;
 	border: none;
-	padding: 10px 20px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-}
-li {
-	text-align: center;
+	padding: 8px;
 }
 hr {
     overflow: visible;
